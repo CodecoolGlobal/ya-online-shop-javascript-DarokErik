@@ -1,0 +1,124 @@
+{
+    "data": [
+        {
+            "id": 1,
+            "title": "Cozy Sofa",
+            "size": {
+                "height": 85,
+                "width": 200,
+                "depth": 90
+            },
+            "price": 899.99,
+            "stock": 10,
+            "material": "Fabric",
+            "color": "Grey",
+            "description": "A comfortable and spacious sofa, perfect for any living room.",
+            "photo": "https://example.com/photos/cozy-sofa.jpg"
+        },
+        {
+            "id": 2,
+            "title": "Elegant Cabinet",
+            "size": {
+                "height": 180,
+                "width": 80,
+                "depth": 50
+            },
+            "price": 499.99,
+            "stock": 5,
+            "material": "Wood",
+            "color": "White",
+            "description": "A sleek and stylish cabinet, ideal for storing your favorite dishes and kitchenware.",
+            "photo": "https://example.com/photos/elegant-cabinet.jpg"
+        },
+        {
+            "id": 3,
+            "title": "Modern Lamp",
+            "size": {
+                "height": 45,
+                "width": 25,
+                "depth": 25
+            },
+            "price": 79.99,
+            "stock": 20,
+            "material": "Metal",
+            "color": "Black",
+            "description": "A contemporary lamp that adds a touch of elegance to any room.",
+            "photo": "https://example.com/photos/modern-lamp.jpg"
+        },
+        {
+            "id": 4,
+            "title": "Executive Desk",
+            "size": {
+                "height": 75,
+                "width": 150,
+                "depth": 75
+            },
+            "price": 599.99,
+            "stock": 7,
+            "material": "Wood",
+            "color": "Dark Brown",
+            "description": "A sturdy and spacious desk, perfect for any home office.",
+            "photo": "https://example.com/photos/executive-desk.jpg"
+        },
+        {
+            "id": 5,
+            "title": "Vintage Commode",
+            "size": {
+                "height": 100,
+                "width": 60,
+                "depth": 40
+            },
+            "price": 299.99,
+            "stock": 8,
+            "material": "Wood",
+            "color": "Blue",
+            "description": "A charming vintage commode that brings a retro feel to your bedroom.",
+            "photo": "https://example.com/photos/vintage-commode.jpg"
+        },
+        {
+            "id": 6,
+            "title": "Sleek Dresser",
+            "size": {
+                "height": 90,
+                "width": 120,
+                "depth": 45
+            },
+            "price": 349.99,
+            "stock": 6,
+            "material": "Wood",
+            "color": "Black",
+            "description": "A modern dresser with ample storage space, perfect for any bedroom.",
+            "photo": "https://example.com/photos/sleek-dresser.jpg"
+        },
+        {
+            "id": 7,
+            "title": "Comfortable Chair",
+            "size": {
+                "height": 100,
+                "width": 50,
+                "depth": 50
+            },
+            "price": 149.99,
+            "stock": 15,
+            "material": "Leather",
+            "color": "Red",
+            "description": "A comfortable chair that fits perfectly in any room or office.",
+            "photo": "https://example.com/photos/comfortable-chair.jpg"
+        },
+        {
+            "id": 8,
+            "title": "Luxury Bed",
+            "size": {
+                "height": 50,
+                "width": 180,
+                "depth": 200
+            },
+            "price": 999.99,
+            "stock": 3,
+            "material": "Leather",
+            "color": "White",
+            "description": "A luxurious bed that offers unparalleled comfort and style.",
+            "photo": "https://example.com/photos/luxury-bed.jpg"
+        }
+    ]
+}
