@@ -156,3 +156,4 @@ async function deleteData(id) {
     method: "DELETE",
   });
 }
+
