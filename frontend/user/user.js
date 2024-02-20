@@ -8,7 +8,7 @@ async function main() {
     .map(
       (d, index) =>
         `<div class="card">
-          <img src="${d.photo}" width="170" height="200">
+          <img src="${d.photo}" width="200" height="200">
           <h3>${d.title}</h3>
           <h4>${d.price} €</h4>
           <button class="details" data-index="${index}">Details</button>
@@ -39,6 +39,7 @@ async function showModal(data) {
   modal.className = "modal";
 
   const content = `
+    <div class="modalContainer">
     <h2>${data.title}</h2>
     <p><strong>Height:</strong> ${data.size.height}</p>
     <p><strong>Width:</strong> ${data.size.width}</p>
@@ -48,9 +49,20 @@ async function showModal(data) {
     <p><strong>Material:</strong> ${data.material}</p>
     <p><strong>Color:</strong> ${data.color}</p>
     <p><strong>Description:</strong> ${data.description}</p>
-    <button onclick="this.parentElement.remove()">Close</button>
+    <button id="closeModalBtn">Close</button>
+    </div>
   `;
   modal.innerHTML = content;
+
+  modal.querySelector("#closeModalBtn").addEventListener("click", () => {
+    modal.remove();
+  });
+
+  modal.addEventListener("click", (event) => {
+    if (event.target === modal) {
+      modal.remove();
+    }
+  });
 
   document.body.appendChild(modal);
 }
