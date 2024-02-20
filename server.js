@@ -86,8 +86,12 @@ app.get('/api/all', async (req, res) => {
     return res.json(response);
 });
 
-app.get('/data', async (req, res) => {
-    res.sendFile(path.join(__dirname, "index.html"));
+app.get('/admin', async (req, res) => {
+    res.sendFile(path.join(__dirname, "frontend/public/admin.html"));
+});
+
+app.get('/user', async (req, res) => {
+    res.sendFile(path.join(__dirname, "frontend/user/user.html"));
 });
 
 app.post("/api/data", async (req, res) => {
