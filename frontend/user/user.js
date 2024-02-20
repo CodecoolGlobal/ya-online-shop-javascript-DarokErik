@@ -1,4 +1,5 @@
 const cardContainer = document.getElementById("card-container");
+const cartItems = [];
 
 async function main() {
   const response = await fetch("/api/all");
@@ -12,7 +13,7 @@ async function main() {
           <h3>${d.title}</h3>
           <h4>${d.price} €</h4>
           <button class="details" data-index="${index}">Details</button>
-          <button class="cart">Add to cart</button>
+          <button class="cart" data-item='${JSON.stringify(d)}'>Add to cart</button>
         </div>`
     )
     .join("");
@@ -27,6 +28,19 @@ async function main() {
       showModal(selectedData);
     });
   });
+
+  const cartButtons = document.querySelectorAll(".cart");
+  cartButtons.forEach((button) => {
+    button.addEventListener("click", () => {
+        const itemData = JSON.parse(button.getAttribute("data-item"));
+        addToCart(itemData);
+    });
+  });
+
+  function addToCart(item) {
+    cartItems.push(item);
+    console.log("Cart Items:", cartItems);
+  }
 }
 main();
 
