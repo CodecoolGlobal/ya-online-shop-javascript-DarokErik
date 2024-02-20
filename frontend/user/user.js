@@ -1,4 +1,6 @@
 const cardContainer = document.getElementById("card-container");
+const totalAmountDisplay = document.createElement("div");
+const cartItems = [];
 
 async function main() {
   const response = await fetch("/api/all");
@@ -13,8 +15,10 @@ async function main() {
           <h4>${d.price} €</h4>
           <div class="btn-container">
           <button class="details" data-index="${index}">Details</button>
-          <button class="cart">Add to cart</button>
-          </div>
+          <button class="cart" data-item='${JSON.stringify(
+            d
+          )}'>Add to cart</button>
+              </div>
         </div>`
     )
     .join("");
@@ -29,6 +33,62 @@ async function main() {
       showModal(selectedData);
     });
   });
+
+  const cartButtons = document.querySelectorAll(".cart");
+  cartButtons.forEach((button) => {
+    button.addEventListener("click", () => {
+      const itemData = JSON.parse(button.getAttribute("data-item"));
+      addToCart(itemData);
+      updateCartMenu();
+    });
+  });
+
+  async function addToCart(item) {
+    cartItems.push(item);
+    console.log("Cart Items:", cartItems);
+  }
+
+  function updateCartMenu() {
+    cartMenu.innerHTML = cartItems
+      .map((item) => `<div>${item.title} - ${item.price} €</div>`)
+      .join("");
+  }
+
+  const cartMenu = document.getElementById("cart-menu");
+
+  document.getElementById("cart-button").addEventListener("click", () => {
+    toggleCartMenu();
+  });
+
+  function toggleCartMenu() {
+    if (cartMenu.style.display === "none") {
+      showCartMenu();
+    } else {
+      hideCartMenu();
+    }
+  }
+
+  function showCartMenu() {
+    cartMenu.innerHTML = cartItems
+      .map((item) => `<div>${item.title} - ${item.price} €</div>`)
+      .join("");
+
+    const totalAmount = calculateTotalAmount();
+    totalAmountDisplay.textContent = `Total price: ${totalAmount} €`;
+
+    cartMenu.appendChild(totalAmountDisplay);
+
+    cartMenu.style.display = "block";
+  }
+
+  function hideCartMenu() {
+    cartMenu.innerHTML = "";
+    cartMenu.style.display = "none";
+  }
+
+  function calculateTotalAmount() {
+    return cartItems.reduce((total, item) => total + item.price, 0).toFixed(2);
+  }
 }
 main();
 
