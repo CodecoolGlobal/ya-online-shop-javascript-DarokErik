@@ -87,7 +87,7 @@ app.get('/api/all', async (req, res) => {
 });
 
 app.get('/data', async (req, res) => {
-    res.sendFile(path.join(__dirname, "index.html"));
+    res.sendFile(path.join(__dirname, "frontend/index.html"));
 });
 
 app.post("/api/data", async (req, res) => {
