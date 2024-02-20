@@ -8,11 +8,13 @@ async function main() {
     .map(
       (d, index) =>
         `<div class="card">
-          <img src="${d.photo}" width="200" height="200">
+          <img src="${d.photo}" class="imgCont">
           <h3>${d.title}</h3>
           <h4>${d.price} €</h4>
+          <div class="btn-container">
           <button class="details" data-index="${index}">Details</button>
           <button class="cart">Add to cart</button>
+          </div>
         </div>`
     )
     .join("");

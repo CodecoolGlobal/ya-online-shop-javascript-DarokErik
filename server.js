@@ -94,7 +94,7 @@ app.get('/user', async (req, res) => {
     res.sendFile(path.join(__dirname, "frontend/user/user.html"));
 });
 
-app.post("/api/data", async (req, res) => {
+app.post("/admin", async (req, res) => {
     const data = req.body;
     await writeData(data)
     return res.sendStatus(201);

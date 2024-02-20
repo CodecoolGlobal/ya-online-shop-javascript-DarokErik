@@ -128,7 +128,7 @@ async function main() {
 main();
 
 async function postData(data) {
-  await fetch("/api/data", {
+  await fetch("http://localhost:8080/admin", {
     method: "POST",
     headers: { "Content-Type": "application/json" },
     body: JSON.stringify(data),
