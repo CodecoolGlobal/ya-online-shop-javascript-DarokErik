@@ -13,7 +13,7 @@
             "material": "Fabric",
             "color": "Grey",
             "description": "A comfortable and spacious sofa, perfect for any living room.",
-            "photo": "https://example.com/photos/cozy-sofa.jpg"
+            "photo": "https://www.ikea.com/hu/hu/images/products/vimle-3-szemelyes-kanape-gunnared-koezepszuerke__0514368_pe639441_s5.jpg?f=s.jpg"
         },
         {
             "id": 2,
@@ -28,7 +28,7 @@
             "material": "Wood",
             "color": "White",
             "description": "A sleek and stylish cabinet, ideal for storing your favorite dishes and kitchenware.",
-            "photo": "https://example.com/photos/elegant-cabinet.jpg"
+            "photo": "https://www.ikea.com/hu/hu/images/products/besta-tarolokombinacio-uevegajtokkal-feher-lappviken-sindvik-feher-ueveg__0350235_pe535123_s5.jpg?f=xl.jpg"
         },
         {
             "id": 3,
@@ -43,7 +43,7 @@
             "material": "Metal",
             "color": "Black",
             "description": "A contemporary lamp that adds a touch of elegance to any room.",
-            "photo": "https://example.com/photos/modern-lamp.jpg"
+            "photo": "https://ae.ideas4lighting.com/images/lucide-knulle-modern-round-metal-black-table-lamp-p57932-67316_medium.jpg"
         },
         {
             "id": 4,
@@ -58,7 +58,7 @@
             "material": "Wood",
             "color": "Dark Brown",
             "description": "A sturdy and spacious desk, perfect for any home office.",
-            "photo": "https://example.com/photos/executive-desk.jpg"
+            "photo": "https://home-max.hu/butor/image/cache/catalog/termekek/iroasztal2/iroasztal-i-1030-800x640.jpg"
         },
         {
             "id": 5,
@@ -73,7 +73,7 @@
             "material": "Wood",
             "color": "Blue",
             "description": "A charming vintage commode that brings a retro feel to your bedroom.",
-            "photo": "https://example.com/photos/vintage-commode.jpg"
+            "photo": "https://1.bonami.hu/images/fit-crop-fill/04/d4/04d447a5242c98842c88af1829a24221b1c4bcaa-1000x1000.jpg"
         },
         {
             "id": 6,
@@ -88,7 +88,7 @@
             "material": "Wood",
             "color": "Black",
             "description": "A modern dresser with ample storage space, perfect for any bedroom.",
-            "photo": "https://example.com/photos/sleek-dresser.jpg"
+            "photo": "https://www.veneti.hu/141418-large_default_zoom/estela-m8-komod-szekreny-140-fekete.jpg"
         },
         {
             "id": 7,
@@ -103,7 +103,7 @@
             "material": "Leather",
             "color": "Red",
             "description": "A comfortable chair that fits perfectly in any room or office.",
-            "photo": "https://example.com/photos/comfortable-chair.jpg"
+            "photo": "https://media.xxxlutz.com/i/xxxlutz/PI3fqC9D5mNsP8C4aGawYhhQ/?fmt=auto&%24hq%24=&w=.jpg"
         },
         {
             "id": 8,
@@ -118,7 +118,457 @@
             "material": "Leather",
             "color": "White",
             "description": "A luxurious bed that offers unparalleled comfort and style.",
-            "photo": "https://example.com/photos/luxury-bed.jpg"
+            "photo": "https://cdn.myshoptet.com/usr/www.wilsondo.hu/user/shop/big/74966_izabella-karpitozott-franciaagy-agynemutartoval-feher.jpg?63b6d416.jpg"
+        },
+        {
+            "id": 9,
+            "title": "Minimalist Bookshelf",
+            "size": {
+                "height": 100,
+                "width": 50,
+                "depth": 50
+            },
+            "price": 199.99,
+            "stock": 10,
+            "material": "Wood",
+            "color": "Brown",
+            "description": "A sleek and functional bookshelf for the modern home.",
+            "photo": "https://cdn1.jysk.com/getimage/wd2.medium/128032.jpg"
+        },
+        {
+            "id": 10,
+            "title": "Retro Coffee Table",
+            "size": {
+                "height": 100,
+                "width": 50,
+                "depth": 50
+            },
+            "price": 199.99,
+            "stock": 10,
+            "material": "Glass",
+            "color": "Clear",
+            "description": "A stylish retro coffee table to add a vintage touch to your living room.",
+            "photo": "https://www.retrostudio.nl/48410-large_default/round-vintage-coffee-table-with-glass-top.jpg"
+        },
+        {
+            "id": 11,
+            "title": "Ergonomic Office Chair",
+            "size": {
+                "height": 100,
+                "width": 50,
+                "depth": 50
+            },
+            "price": 199.99,
+            "stock": 10,
+            "material": "Mesh",
+            "color": "Black",
+            "description": "Comfort and productivity go hand in hand with this ergonomic office chair.",
+            "photo": "https://www.homelux.hu/img/46113/5902659141774/800x800,r/5902659141774.webp?time=1663174809.jpg"
+        },
+        {
+            "id": 12,
+            "title": "Convertible Sofa Bed",
+            "size": {
+                "height": 100,
+                "width": 50,
+                "depth": 50
+            },
+            "price": 199.99,
+            "stock": 10,
+            "material": "Fabric",
+            "color": "Navy Blue",
+            "description": "A versatile sofa that transforms into a bed in seconds.",
+            "photo": "https://www.ikea.com/hu/hu/images/products/friheten-sarokkanape-taroloval-skiftebo-kek__0690243_pe723167_s5.jpg?f=s.jpg"
+        },
+        {
+            "id": 13,
+            "title": "Antique Dressing Table",
+            "size": {
+                "height": 100,
+                "width": 50,
+                "depth": 50
+            },
+            "price": 199.99,
+            "stock": 10,
+            "material": "Wood",
+            "color": "Ivory",
+            "description": "An exquisite dressing table that brings a touch of elegance to your bedroom.",
+            "photo": "https://www.homesdirect365.co.uk/images/ivory-antique-french-style-dressing-table-set-p23670-13622_zoom.jpg"
+        },
+        {
+            "id": 14,
+            "title": "Modern TV Stand",
+            "size": {
+                "height": 100,
+                "width": 50,
+                "depth": 50
+            },
+            "price": 199.99,
+            "stock": 10,
+            "material": "Metal",
+            "color": "Black",
+            "description": "A minimalist TV stand for the modern living space.",
+            "photo": "https://www.ikea.com/hu/hu/images/products/rannaes-tv-allvany-ajtokkal-fekete-fekete-ueveg__1044087_pe841894_s5.jpg?f=s.jpg"
+        },
+        {
+            "id": 15,
+            "title": "Outdoor Patio Set",
+            "size": {
+                "height": 100,
+                "width": 50,
+                "depth": 50
+            },
+            "price": 199.99,
+            "stock": 10,
+            "material": "Rattan",
+            "color": "Beige",
+            "description": "Enjoy the outdoors with this comfortable and durable patio set.",
+            "photo": "https://1.bonami.hu/images/fit-crop-fill/2b/bb/2bbbf6e71b3486d8e1f3563f2dc1b8c3d340dc74-1000x1000.jpg"
+        },
+        {
+            "id": 16,
+            "title": "Industrial Bar Stool",
+            "size": {
+                "height": 100,
+                "width": 50,
+                "depth": 50
+            },
+            "price": 199.99,
+            "stock": 10,
+            "material": "Metal",
+            "color": "Rustic",
+            "description": "Add a unique industrial vibe to your kitchen or bar area.",
+            "photo": "https://www.vasbutor.hu/cdn/shop/files/Barszek-eros-acelvazas-konyhaszekek-2-db-os-keszlet-VASBUTOR.jpg?v=1708012959&width=600.jpg"
+        },
+        {
+            "id": 17,
+            "title": "Contemporary Floor Lamp",
+            "size": {
+                "height": 100,
+                "width": 50,
+                "depth": 50
+            },
+            "price": 199.99,
+            "stock": 10,
+            "material": "Metal",
+            "color": "Silver",
+            "description": "Illuminate your space with this stylish contemporary floor lamp.",
+            "photo": "https://m.media-amazon.com/images/I/51+jIzm0iOL._AC_SL1500_.jpg"
+        },
+        {
+            "id": 18,
+            "title": "Wall Mounted Shelf",
+            "size": {
+                "height": 100,
+                "width": 50,
+                "depth": 50
+            },
+            "price": 199.99,
+            "stock": 10,
+            "material": "Wood",
+            "color": "White",
+            "description": "Save space with this practical and elegant wall-mounted shelf.",
+            "photo": "https://cdn.myshoptet.com/usr/www.wilsondo.hu/user/shop/big/61655-3_fali-polc-anita.jpg?618ad9db.jpg"
+        },
+        {
+            "id": 19,
+            "title": "Plush Bean Bag",
+            "size": {
+                "height": 100,
+                "width": 50,
+                "depth": 50
+            },
+            "price": 199.99,
+            "stock": 10,
+            "material": "Fabric",
+            "color": "Red",
+            "description": "The ultimate comfort piece for lounging and relaxation.",
+            "photo": "https://m.media-amazon.com/images/I/51UF2Piu1EL._AC_SL1500_.jpg"
+        },
+        {
+            "id": 20,
+            "title": "Adjustable Standing Desk",
+            "size": {
+                "height": 100,
+                "width": 50,
+                "depth": 50
+            },
+            "price": 199.99,
+            "stock": 10,
+            "material": "Wood",
+            "color": "Oak",
+            "description": "A versatile desk that adapts to your working style.",
+            "photo": "https://pictureserver.net/images/pic/bf/36/undef_src_sa_picid_899519_x_760_type_whitesh_image.jpg?ver=6.jpg"
+        },
+        {
+            "id": 21,
+            "title": "Ornate Mirror",
+            "size": {
+                "height": 100,
+                "width": 50,
+                "depth": 50
+            },
+            "price": 199.99,
+            "stock": 10,
+            "material": "Glass",
+            "color": "Gold",
+            "description": "An ornate mirror that adds a touch of glamour to any room.",
+            "photo": "https://cdn11.bigcommerce.com/s-93bnc4gyt1/images/stencil/1280x1280/products/2578/7287/DMR229__55338.1671137828.JPG?c=1.jpg"
+        },
+        {
+            "id": 22,
+            "title": "Sectional Corner Sofa",
+            "size": {
+                "height": 100,
+                "width": 50,
+                "depth": 50
+            },
+            "price": 199.99,
+            "stock": 10,
+            "material": "Leather",
+            "color": "White",
+            "description": "Maximize your living room space with this elegant sectional corner sofa.",
+            "photo": "https://www.nuvoitalia.co.za/cdn/shop/products/Dante-l-shaped-sectional-couch-leather-uppers_6_5000x.jpg?v=1695407635.jpg"
+        },
+        {
+            "id": 23,
+            "title": "Kids Bunk Bed",
+            "size": {
+                "height": 100,
+                "width": 50,
+                "depth": 50
+            },
+            "price": 199.99,
+            "stock": 10,
+            "material": "Wood",
+            "color": "Yellow",
+            "description": "A fun and space-saving bunk bed for kids.",
+            "photo": "https://www.ulcdn.net/images/products/566910/slide/666x363/FVBDST33YL20679_1.jpg?1654240581.jpg"
+        },
+        {
+            "id": 24,
+            "title": "Gaming Chair",
+            "size": {
+                "height": 100,
+                "width": 50,
+                "depth": 50
+            },
+            "price": 199.99,
+            "stock": 10,
+            "material": "Leather",
+            "color": "Blue",
+            "description": "Elevate your gaming experience with this comfortable and stylish gaming chair.",
+            "photo": "https://diablochairs.com/media/catalog/product/cache/c8ca14fb0377dd33274c8b0807dbaca7/p/a/pac-x-starter-fotel-granatowy-010d24.jpg"
+        },
+        {
+            "id": 25,
+            "title": "Round Dining Table",
+            "size": {
+                "height": 100,
+                "width": 50,
+                "depth": 50
+            },
+            "price": 199.99,
+            "stock": 10,
+            "material": "Wood",
+            "color": "Cherry",
+            "description": "A classic round dining table for timeless elegance.",
+            "photo": "https://1.bonami.hu/images/fit-crop-fill/9f/b1/9fb13aa2dde426736e71afa0cf707afdddcc0461-1000x1000.jpg"
+        },
+        {
+            "id": 26,
+            "title": "Folding Room Divider",
+            "size": {
+                "height": 100,
+                "width": 50,
+                "depth": 50
+            },
+            "price": 199.99,
+            "stock": 10,
+            "material": "Wood",
+            "color": "Black",
+            "description": "A stylish and functional room divider for privacy and decoration.",
+            "photo": "https://pictureserver.net/images/pic/56/c9/undef_src_sa_picid_802697_x_760_type_whitesh_image.jpg?ver=25.jpg"
+        },
+        {
+            "id": 27,
+            "title": "Velvet Armchair",
+            "size": {
+                "height": 100,
+                "width": 50,
+                "depth": 50
+            },
+            "price": 199.99,
+            "stock": 10,
+            "material": "Velvet",
+            "color": "Emerald Green",
+            "description": "Add a touch of luxury to your living space with this velvet armchair.",
+            "photo": "https://img.furniture1.eu/v7/_im_/detailed/2891/2891689.jpg?w=900&h=675&p=fw.jpg"
+        },
+        {
+            "id": 28,
+            "title": "Rustic Nightstand",
+            "size": {
+                "height": 100,
+                "width": 50,
+                "depth": 50
+            },
+            "price": 199.99,
+            "stock": 10,
+            "material": "Wood",
+            "color": "Dark Oak",
+            "description": "A rustic nightstand adding a cozy vibe to your bedroom.",
+            "photo": "https://home-max.hu/butor/image/cache/catalog/termekek/cegledikepek02-20/kendy-ejjeliszekreny-oreg-tolgy-fekete-800x640.jpg"
+        },
+        {
+            "id": 29,
+            "title": "Rustic Coffee Table",
+            "size": {
+                "height": 45,
+                "width": 90,
+                "depth": 55
+            },
+            "price": 199.99,
+            "stock": 12,
+            "material": "Wood",
+            "color": "Brown",
+            "description": "A rustic coffee table that brings a warm, natural feel to your living space.",
+            "photo": "https://pictureserver.net/images/pic/32/3f/undef_src_sa_picid_693800_x_760_type_whitesh_image.jpg?ver=25.jpg"
+        },
+        {
+            "id": 30,
+            "title": "Modern Bookshelf",
+            "size": {
+                "height": 180,
+                "width": 80,
+                "depth": 35
+            },
+            "price": 259.99,
+            "stock": 9,
+            "material": "Metal",
+            "color": "Black",
+            "description": "A sleek, modern bookshelf to keep your books organized in style.",
+            "photo": "https://www.ikea.com/hu/hu/images/products/jaettesta-tarolokombinacio-fekete__1159848_pe888662_s5.jpg?f=s.jpg"
+        },
+        {
+            "id": 31,
+            "title": "Plush Armchair",
+            "size": {
+                "height": 100,
+                "width": 85,
+                "depth": 90
+            },
+            "price": 349.99,
+            "stock": 7,
+            "material": "Velvet",
+            "color": "Emerald Green",
+            "description": "A plush armchair that combines comfort with elegance, perfect for any corner.",
+            "photo": "https://1.bonami.hu/images/fit-crop-fill/a6/6c/a66cd073e8ae1f344338c628fd6035250a32ba99-1000x1000.jpg"
+        },
+        {
+            "id": 32,
+            "title": "Scandinavian Dining Set",
+            "size": {
+                "height": 75,
+                "width": 180,
+                "depth": 90
+            },
+            "price": 899.99,
+            "stock": 5,
+            "material": "Wood",
+            "color": "Natural",
+            "description": "A Scandinavian-inspired dining set that brings simplicity and functionality to your dining area.",
+            "photo": "https://cdn2.jysk.com/getimage/wd2.medium/214170.jpg"
+        },
+        {
+            "id": 33,
+            "title": "Minimalist Nightstand",
+            "size": {
+                "height": 50,
+                "width": 40,
+                "depth": 35
+            },
+            "price": 129.99,
+            "stock": 10,
+            "material": "Wood",
+            "color": "White",
+            "description": "A minimalist nightstand with a sleek design, providing the perfect bedside storage solution.",
+            "photo": "https://1.bonami.hu/images/fit-crop-fill/8b/37/8b379dd7d5c26bd5f934bc37b1d951619c8b37e0-1000x1000.jpg"
+        },
+        {
+            "id": 34,
+            "title": "Ergonomic Office Chair",
+            "size": {
+                "height": 110,
+                "width": 65,
+                "depth": 65
+            },
+            "price": 299.99,
+            "stock": 8,
+            "material": "Mesh",
+            "color": "Black",
+            "description": "An ergonomic office chair designed for comfort and support during long working hours.",
+            "photo": "https://diablochairs.com/media/catalog/product/cache/c8ca14fb0377dd33274c8b0807dbaca7/b/a/basic-black-0010d24.jpg"
+        },
+        {
+            "id": 35,
+            "title": "Industrial Floor Lamp",
+            "size": {
+                "height": 160,
+                "width": 40,
+                "depth": 40
+            },
+            "price": 159.99,
+            "stock": 6,
+            "material": "Metal",
+            "color": "Bronze",
+            "description": "An industrial-style floor lamp that adds a statement to any room.",
+            "photo": "https://www.lampak.hu/eglo-allolampa-1xe27-60w-230v-img-eg94705-fd-2.jpg"
+        },
+        {
+            "id": 36,
+            "title": "Vintage Vanity Set",
+            "size": {
+                "height": 130,
+                "width": 100,
+                "depth": 50
+            },
+            "price": 499.99,
+            "stock": 4,
+            "material": "Wood",
+            "color": "Pastel Pink",
+            "description": "A vintage vanity set that offers a touch of femininity and elegance to your bedroom.",
+            "photo": "https://m.media-amazon.com/images/I/5185n3QsnhL._AC_SL1000_.jpg"
+        },
+        {
+            "id": 37,
+            "title": "Modular Shelving Unit",
+            "size": {
+                "height": 200,
+                "width": 150,
+                "depth": 35
+            },
+            "price": 599.99,
+            "stock": 3,
+            "material": "Wood",
+            "color": "Espresso",
+            "description": "A modular shelving unit that provides versatile storage options and a modern look.",
+            "photo": "https://www.ikea.com/hu/hu/images/products/lanesund-tarolokombinacio-szuerke-barna__1186546_pe898868_s5.jpg?f=s.jpg"
+        },
+        {
+            "id": 38,
+            "title": "Outdoor Patio Set",
+            "size": {
+                "height": 75,
+                "width": 120,
+                "depth": 75
+            },
+            "price": 799.99,
+            "stock": 5,
+            "material": "Rattan",
+            "color": "Grey",
+            "description": "An outdoor patio set that blends comfort and style, perfect for any outdoor space.",
+            "photo": "https://www.vidaxl.hu/dw/image/v2/BFNS_PRD/on/demandware.static/-/Sites-vidaxl-catalog-master-sku/default/dw033af81c/hi-res/436/4299/6367/41879/image_2_41879.jpg?sw=400.jpg"
         }
     ]
 }
