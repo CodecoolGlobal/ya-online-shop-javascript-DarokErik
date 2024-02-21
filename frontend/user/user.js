@@ -16,8 +16,8 @@ async function main() {
           <div class="btn-container">
           <button class="details" data-index="${index}">Details</button>
           <button class="cart" data-item='${JSON.stringify(
-            d
-          )}'>Add to cart</button>
+          d
+        )}'>Add to cart</button>
               </div>
         </div>`
     )
@@ -47,7 +47,7 @@ async function main() {
     cartItems.push(item);
     console.log("Cart Items:", cartItems);
     showPopup()
-    
+
   }
 
   function updateCartMenu() {
@@ -109,14 +109,14 @@ async function main() {
   function calculateTotalAmount() {
     return cartItems.reduce((total, item) => total + item.price, 0).toFixed(2);
   }
-  
+
   function showPopup() {
     popup.style.display = 'block';
-    setTimeout(function() {
+    setTimeout(function () {
       popup.style.display = 'none';
-    }, 2000); 
+    }, 2000);
   }
-  
+
 }
 main();
 
