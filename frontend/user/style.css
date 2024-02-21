@@ -59,6 +59,15 @@ header h1 {
     transition: background-color 0.3s ease;
 }
 
+#home-button {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 0.625rem 1.25rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
 .cart{
     background-color: #333;
     color: #fff;
@@ -185,4 +194,36 @@ footer {
     color: #fff;
     padding: 1.25rem;
     text-align: center;
+}
+
+#cart-content {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    padding: 20px;
+    border: 1px solid #ccc;
+    max-width: 400px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+#home-container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin: 10px;
+}
+
+#cart-container {
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin: 10px;
+}
+
+#cart-menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
