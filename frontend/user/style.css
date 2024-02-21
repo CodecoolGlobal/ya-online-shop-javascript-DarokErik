@@ -30,51 +30,82 @@ body {
 }
 
 header {
-  background-color: #333;
-  color: #fff;
-  padding: 20px;
-  text-align: center;
+    background-color: #333;
+    color: #fff;
+    padding: 1.25rem;
+    text-align: center;
 }
 
 header h1 {
-  font-size: 24px;
+    font-size: 1.5rem;
 }
 
-button {
-  background-color: #333;
-  color: #fff;
-  border: none;
-  padding: 10px 20px;
-  cursor: pointer;
-  transition: background-color 0.3s ease;
+.details {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 0.625rem 1.25rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    width: 50%;
+}
+
+#cart-button {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 0.625rem 1.25rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.cart{
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 0.625rem 1.25rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    width: 50%;
 }
 
 button:hover {
   background-color: #555;
 }
 
+.btn-container {
+    display: flex;
+    width: 100%;
+
+}
+
+.imgCont {
+     width: 12.5rem;
+     height: 12.5rem;
+}
+
 .card-container {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  margin-top: 20px;
-  max-width: 1200px;
-  margin-left: auto;
-  margin-right: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 1.25rem;
+    max-width: 75rem;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .card {
-  background-color: #fff;
-  border-radius: 8px;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-  margin: 0 10px 20px;
-  width: calc(20% - 20px);
-  max-width: 235px;
-  flex: 1 0 auto;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  position: relative;
+    background-color: #fff;
+    border-radius: 0.5;
+    box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.1);
+    margin: 0 0.625rem 1.25rem;
+    width: calc(20% - 1.25rem);
+    max-width: 14.688rem;
+    flex: 1 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    position: relative;
 }
 
 .card img {
@@ -82,28 +113,24 @@ button:hover {
   margin: 0 auto;
 }
 
-.card-content {
-  padding: 20px;
-}
-
 .card h3 {
-  font-size: 18px;
-  margin-bottom: 10px;
-  margin-left: 10px
+    font-size: 1.125rem;
+    margin-bottom: 0.625rem;
+    margin-left: 0.625rem;
 }
 
 .card h4 {
-  font-size: 16px;
-  color: black;
-  font-weight: bold;
-  margin-bottom: 10px;
-  margin-left: 10px
+    font-size: 1rem;
+    color: black;
+    font-weight: bold;
+    margin-bottom: 0.625rem;
+    margin-left: 0.625rem;
 }
 
 .card p {
-  font-size: 14px;
-  color: #777;
-  margin-bottom: 10px;
+    font-size: 0.875rem;
+    color: #777;
+    margin-bottom: 0.625rem;
 }
 
 .modal {
@@ -119,33 +146,34 @@ button:hover {
 }
 
 .modalContainer {
-  background-color: #fff;
-  padding: 20px;
-  border-radius: 8px;
-  max-width: 80%;
-  max-height: 80%;
-  overflow-y: auto;
-  text-align: left;
+    background-color: #fff;
+    padding: 1.25rem;
+    border-radius: 0.5rem;
+    max-width: 80%;
+    max-height: 80%;
+    overflow-y: auto;
+    text-align: left;
 }
 
 .modal h2 {
-  font-size: 24px;
-  margin-bottom: 10px;
+    font-weight: bold;
+    font-size: 1.5rem;
+    margin-bottom: 0.625rem;
 }
 
 .modal p {
-  font-size: 16px;
-  margin-bottom: 10px;
+    font-size: 1rem;
+    margin-bottom: 0.625rem;
 }
 
 .modal button {
-  background-color: #333;
-  color: #fff;
-  border: none;
-  padding: 10px 20px;
-  cursor: pointer;
-  transition: background-color 0.3s ease;
-  float: left;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 0.625rem 1.25rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    float: left;
 }
 
 .modal button:hover {
@@ -153,8 +181,8 @@ button:hover {
 }
 
 footer {
-  background-color: #333;
-  color: #fff;
-  padding: 20px;
-  text-align: center;
+    background-color: #333;
+    color: #fff;
+    padding: 1.25rem;
+    text-align: center;
 }
