@@ -308,9 +308,9 @@
         "width": 50,
         "depth": 50
       },
-      "price": 199.99,
+      "price": 199,
       "stock": 10,
-      "material": "Glass",
+      "material": "Glass,Wood",
       "color": "Gold",
       "description": "An ornate mirror that adds a touch of glamour to any room.",
       "photo": "https://cdn11.bigcommerce.com/s-93bnc4gyt1/images/stencil/1280x1280/products/2578/7287/DMR229__55338.1671137828.JPG?c=1.jpg"
