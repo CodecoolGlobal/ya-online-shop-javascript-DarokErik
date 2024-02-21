@@ -107,6 +107,7 @@ app.patch("/api/data/:id", async (req, res) => {
     return res.json(response);
 });
 
+
 app.put("/api/data/:id", async (req, res) => {
     const updatedFields = req.body;
     const id = req.params.id

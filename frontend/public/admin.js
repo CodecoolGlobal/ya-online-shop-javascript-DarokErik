@@ -128,7 +128,7 @@ async function main() {
 main();
 
 async function postData(data) {
-  await fetch("/api/data", {
+  await fetch("/api/all", {
     method: "POST",
     headers: { "Content-Type": "application/json" },
     body: JSON.stringify(data),
@@ -136,7 +136,7 @@ async function postData(data) {
 }
 
 async function patchData(data, id) {
-  await fetch(`/api/data/${id}`, {
+  await fetch(`/api/all/${id}`, {
     method: "PATCH",
     headers: { "Content-Type": "application/json" },
     body: JSON.stringify(data),
@@ -144,7 +144,7 @@ async function patchData(data, id) {
 }
 
 async function putData(data, id) {
-  await fetch(`/api/data/${id}`, {
+  await fetch(`/api/all/${id}`, {
     method: "PUT",
     headers: { "Content-Type": "application/json" },
     body: JSON.stringify(data),
@@ -152,7 +152,7 @@ async function putData(data, id) {
 }
 
 async function deleteData(id) {
-  await fetch(`/api/data/${id}`, {
+  await fetch(`/api/all/${id}`, {
     method: "DELETE",
   });
 }
