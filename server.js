@@ -95,11 +95,9 @@ app.get("/api/all", async (req, res) => {
 });
 
 app.post("/admin", async (req, res) => {
-    console.log(req.body);
     const data = req.body;
-    console.log(data)
     await writeData(data);
-      return res.json(data);
+    return res.json(data);
 });
 
 app.get("/admin", async (req, res) => {
