@@ -12,21 +12,21 @@ p,
 a,
 img,
 button {
-  margin: 0;
-  padding: 0;
-  border: 0;
-  font-size: 100%;
-  font: inherit;
-  vertical-align: baseline;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
 }
 
 * {
-  box-sizing: border-box;
+    box-sizing: border-box;
 }
 
 body {
-  font-family: 'Arial', sans-serif;
-  background-color: rgb(167, 139, 104)
+    font-family: "Arial", sans-serif;
+    background-color: rgb(167, 139, 104);
 }
 
 header {
@@ -51,24 +51,27 @@ header h1 {
 }
 
 #cart-button {
-    background-color: #333;
+    background-color: grey;
     color: #fff;
     border: none;
-    padding: 0.625rem 1.25rem;
+    padding: 0.8rem 1.6rem;
     cursor: pointer;
     transition: background-color 0.3s ease;
+    margin-top: 1.7rem;
+    margin-right: 2.5rem;
+    border-radius: 0.5rem;
 }
 
 #home-button {
-    background-color: #333;
-    color: #fff;
     border: none;
     padding: 0.625rem 1.25rem;
     cursor: pointer;
     transition: background-color 0.3s ease;
+    width: 9.5rem;
+    height: 7rem;
 }
 
-.cart{
+.cart {
     background-color: #333;
     color: #fff;
     border: none;
@@ -79,18 +82,17 @@ header h1 {
 }
 
 button:hover {
-  background-color: #555;
+    background-color: #555;
 }
 
 .btn-container {
     display: flex;
     width: 100%;
-
 }
 
 .imgCont {
-     width: 12.5rem;
-     height: 12.5rem;
+    width: 12.5rem;
+    height: 12.5rem;
 }
 
 .card-container {
@@ -118,8 +120,8 @@ button:hover {
 }
 
 .card img {
-  display: block;
-  margin: 0 auto;
+    display: block;
+    margin: 0 auto;
 }
 
 .card h3 {
@@ -143,15 +145,15 @@ button:hover {
 }
 
 .modal {
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background-color: rgba(0, 0, 0, 0.5);
-  display: flex;
-  justify-content: center;
-  align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .modalContainer {
@@ -186,7 +188,7 @@ button:hover {
 }
 
 .modal button:hover {
-  background-color: #555;
+    background-color: #555;
 }
 
 footer {
@@ -205,7 +207,7 @@ footer {
     padding: 20px;
     border: 1px solid #ccc;
     max-width: 400px;
-    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
 #home-container {
@@ -215,24 +217,69 @@ footer {
     margin: 10px;
 }
 
- #cart-container {
+#cart-container {
     position: absolute;
     top: 0;
     right: 0;
     margin: 10px;
 }
 
-/* #cart-menu {
-    display: flex;
-    justify-content: center;
+.cartMenu {
+    flex-direction: column;
     align-items: center;
-}  */
+    justify-content: center;
+    width: 100%;
+    min-height: 80vh;
+    margin-left: -42.5rem;
+}
 
-#root {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  width: 100%;
-  min-height: 100vh;
+.popup {
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 10px 20px;
+    border: 1px solid #ccc;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 2rem;
+    background-image: linear-gradient(135deg, rgb(155, 124, 88), rgb(119, 95, 64));
+    height: 2.5rem;
+    display: none;
+    margin-left: 40rem;
+    width: 16.4rem;
+    margin-top: -170rem;
+}
+
+.topnav {
+    overflow: hidden;
+    background-color: #333;
+    height: 8.5rem;
+}
+
+.remove-item {
+  background-color: grey;
+    color: #fff;
+    border: none;
+    padding: 0.8rem 1.6rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-top: 1.7rem;
+    margin-right: 2.5rem;
+    border-radius: 0.5rem;
+}
+
+#buy-button {
+  background-color: grey;
+    color: #fff;
+    border: none;
+    padding: 0.8rem 1.6rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-top: 1.7rem;
+    margin-right: 2.5rem;
+    border-radius: 0.5rem;
+}
+
+#buy-button:hover {
+  background-color: #555;
 }
