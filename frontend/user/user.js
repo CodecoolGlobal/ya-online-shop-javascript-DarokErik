@@ -46,6 +46,8 @@ async function main() {
   async function addToCart(item) {
     cartItems.push(item);
     console.log("Cart Items:", cartItems);
+    showPopup()
+    
   }
 
   function updateCartMenu() {
@@ -108,6 +110,12 @@ async function main() {
     return cartItems.reduce((total, item) => total + item.price, 0).toFixed(2);
   }
   
+  function showPopup() {
+    popup.style.display = 'block';
+    setTimeout(function() {
+      popup.style.display = 'none';
+    }, 2000); 
+  }
   
 }
 main();
