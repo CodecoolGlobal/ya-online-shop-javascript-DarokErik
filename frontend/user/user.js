@@ -110,6 +110,7 @@ async function main() {
   
   
 }
+
 main();
 
 async function showModal(data) {
@@ -148,3 +149,4 @@ async function showModal(data) {
 
   document.body.appendChild(modal);
 }
+

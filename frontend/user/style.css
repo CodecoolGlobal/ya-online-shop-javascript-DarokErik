@@ -215,15 +215,24 @@ footer {
     margin: 10px;
 }
 
-#cart-container {
+ #cart-container {
     position: absolute;
     top: 0;
     right: 0;
     margin: 10px;
 }
 
-#cart-menu {
+/* #cart-menu {
     display: flex;
     justify-content: center;
     align-items: center;
+}  */
+
+#root {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  min-height: 100vh;
 }
