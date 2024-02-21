@@ -224,13 +224,13 @@ footer {
     margin: 10px;
 }
 
-#root {
-    display: flex;
+.cartMenu {
     flex-direction: column;
     align-items: center;
     justify-content: center;
     width: 100%;
-    min-height: 100vh;
+    min-height: 80vh;
+    margin-left: -42.5rem;
 }
 
 .popup {
@@ -254,4 +254,32 @@ footer {
     overflow: hidden;
     background-color: #333;
     height: 8.5rem;
+}
+
+.remove-item {
+  background-color: grey;
+    color: #fff;
+    border: none;
+    padding: 0.8rem 1.6rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-top: 1.7rem;
+    margin-right: 2.5rem;
+    border-radius: 0.5rem;
+}
+
+#buy-button {
+  background-color: grey;
+    color: #fff;
+    border: none;
+    padding: 0.8rem 1.6rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-top: 1.7rem;
+    margin-right: 2.5rem;
+    border-radius: 0.5rem;
+}
+
+#buy-button:hover {
+  background-color: #555;
 }
