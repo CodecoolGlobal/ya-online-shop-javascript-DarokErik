@@ -69,26 +69,46 @@ async function main() {
   }
 
   function showCartMenu() {
-    cartMenu.innerHTML = cartItems
-      .map((item) => `<div>${item.title} - ${item.price} €</div>`)
+    const root = document.getElementById("root");
+    root.innerHTML = cartItems
+      .map(
+        (item) => `
+        <div>${item.title} - ${item.price} €</div>
+    `
+      )
       .join("");
 
     const totalAmount = calculateTotalAmount();
     totalAmountDisplay.textContent = `Total price: ${totalAmount} €`;
 
-    cartMenu.appendChild(totalAmountDisplay);
+    root.appendChild(totalAmountDisplay);
 
     cartMenu.style.display = "block";
+
+    const url = new URL(window.location.href);
+    url.pathname = "/cart";
+    window.history.pushState({ path: url.href }, "", url.href);
   }
+
+  document.getElementById("cart-button").addEventListener("click", () => {
+    toggleCartMenu();
+    showCartMenu();
+  });
 
   function hideCartMenu() {
     cartMenu.innerHTML = "";
     cartMenu.style.display = "none";
   }
 
+  function calculateTotalAmount(cartItems) {
+    return cartItems.reduce((total, item) => total + item.price, 0).toFixed(2);
+  }
+
   function calculateTotalAmount() {
     return cartItems.reduce((total, item) => total + item.price, 0).toFixed(2);
   }
+  
+  
 }
 main();
 
