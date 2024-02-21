@@ -163,7 +163,7 @@ const cardContainer = document.getElementById("card-container");
 const cartMenu = document.querySelector(".cartMenu");
 const totalAmountDisplay = document.createElement("div");
 const cartItems = [];
-let currentPage = 'home'; // Track the current page/view
+let currentPage = 'home'; 
 
 async function main() {
   const response = await fetch("/api/all");
@@ -220,17 +220,17 @@ async function main() {
 
   function showCartMenu() {
     if(currentPage === 'cart') {
-      cardContainer.innerHTML = ''; // Clear the main content area
+      cardContainer.innerHTML = ''; 
       updateCartMenu();
     }
   }
 
   function updateCartMenu() {
     let cartHtml = cartItems
-      .map((item, index) => `<div>${item.title} - ${item.price} € <button class="remove-item" data-index="${index}">Remove</button></div>`)
+      .map((item, index) => `<div id="cart-content">${item.title} - ${item.price} € <button class="remove-item" data-index="${index}">X</button></div>`)
       .join("");
     const totalAmount = calculateTotalAmount();
-    cartHtml += `<div>Total price: ${totalAmount} €</div>`;
+    cartHtml += `<div id="totalprice">Total price: ${totalAmount} €</div>`;
     cartHtml += '<button id="buy-button">Buy</button>';
     cartMenu.innerHTML = cartHtml;
     cartMenu.style.display = "flex";
@@ -251,9 +251,9 @@ async function main() {
         data[dataIndex].stock -= 1;
       }
     });
-    cartItems.length = 0; // Clear the cart
+    cartItems.length = 0; 
     alert("Thank you for your purchase!");
-    navigateToHome(); // Redirect to home after purchase
+    navigateToHome(); 
   }
 
   function removeItemFromCart(index) {
@@ -291,7 +291,7 @@ async function main() {
     showPopup()
   }
 
-  // Initial render based on the current URL
+  
   const url = new URL(window.location);
   if (url.pathname === "/cart") {
     navigateToCart();

@@ -199,16 +199,13 @@ footer {
 }
 
 #cart-content {
-    position: fixed;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    background-color: white;
-    padding: 20px;
-    border: 1px solid #ccc;
-    max-width: 400px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-}
+    display: flex;
+    align-items: center; 
+    justify-content: space-between;
+    padding: 0.2rem; 
+    width: 25rem; 
+    margin-top: 0.7rem;
+  }
 
 #home-container {
     position: absolute;
@@ -260,12 +257,15 @@ footer {
   background-color: grey;
     color: #fff;
     border: none;
-    padding: 0.8rem 1.6rem;
+    padding: 0.6rem 0.8rem;
     cursor: pointer;
     transition: background-color 0.3s ease;
-    margin-top: 1.7rem;
+    margin-top: 1.2rem;
     margin-right: 2.5rem;
-    border-radius: 0.5rem;
+    border-radius: 7rem;
+    margin-bottom: 1.2rem;
+    
+    
 }
 
 #buy-button {
@@ -282,4 +282,12 @@ footer {
 
 #buy-button:hover {
   background-color: #555;
+}
+
+#totalprice{
+    display: flex;
+    align-items: center; 
+    justify-content: space-between;
+    padding: 10px; 
+    width: 25rem;
 }
