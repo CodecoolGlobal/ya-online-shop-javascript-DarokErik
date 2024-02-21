@@ -20,7 +20,7 @@ async function main() {
         <input type="text" placeholder="Photo" value="${data.photo}" id="update-input-photo-${data.id}">
         <button type="submit">Update Item</button>
         </form>
-        <button id="delete-${data.id}">Delete Item</button>
+        <button class="del" id="delete-${data.id}">Delete Item</button>
         </div>`
     )
     .join("");
