@@ -225,9 +225,13 @@ footer {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    width: 100%;
-    min-height: 80vh;
+    width: fit-content;
+    height: fit-content;
     margin-left: -42.5rem;
+    background-color: white;
+    
+    border: 2px solid black;
+
 }
 
 .popup {
