@@ -8,24 +8,24 @@ body {
 #root {
     width: 80%;
     margin: 0 auto;
-    padding: 20px;
+    padding: 1.25rem;
 }
 
 form {
     background-color: rgb(128, 86, 46);
-    padding: 20px;
-    border-radius: 5px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 1.25rem;
+    border-radius: 0.313rem;
+    box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.1);
 }
 
 input[type="number"],
 input[type="text"] {
     width: 98.5%;
-    padding: 10px;
-    margin-bottom: 10px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-    margin-right: 20px;
+    padding: 0.625rem;
+    margin-bottom: 0.625rem;
+    border: 0.063rem solid #ccc;
+    border-radius: 0.313rem;
+    margin-right: 1.25rem;
 }
 
 input[type="number"]:focus,
@@ -38,8 +38,8 @@ button[type="submit"] {
     background-color: #007bff;
     color: #fff;
     border: none;
-    padding: 10px 20px;
-    border-radius: 5px;
+    padding: 0.625rem 1.25rem;
+    border-radius: 0.313rem;
     cursor: pointer;
 }
 
@@ -51,8 +51,8 @@ button[type="submit"]:hover {
     background-color: red;
     color: #fff;
     border: none;
-    padding: 10px 20px;
-    border-radius: 5px;
+    padding: 0.625rem 1.25rem;
+    border-radius: 0.313rem;
     cursor: pointer;
     margin-left: 1.4rem;
     margin-top: 0.5rem;
