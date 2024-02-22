@@ -2,7 +2,7 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: brown;
+    background-color: rgb(167, 139, 104)
 }
 
 #root {
@@ -12,7 +12,7 @@ body {
 }
 
 form {
-    background-color: #fff;
+    background-color: rgb(128, 86, 46);
     padding: 20px;
     border-radius: 5px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
@@ -20,11 +20,12 @@ form {
 
 input[type="number"],
 input[type="text"] {
-    width: 100%;
+    width: 98.5%;
     padding: 10px;
     margin-bottom: 10px;
     border: 1px solid #ccc;
     border-radius: 5px;
+    margin-right: 20px;
 }
 
 input[type="number"]:focus,
@@ -44,4 +45,107 @@ button[type="submit"] {
 
 button[type="submit"]:hover {
     background-color: #0056b3;
+}
+
+.del {
+    background-color: red;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: 1.4rem;
+    margin-top: 0.5rem;
+    margin-bottom: 3rem;
+}
+
+#input-id {
+    max-width: 40%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-left: 27.5rem
+}
+
+#input-title {
+    max-width: 40%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-left: 27.5rem
+}
+
+#input-height {
+    max-width: 40%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-left: 27.5rem
+}
+
+#input-width {
+    max-width: 40%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-left: 27.5rem
+}
+
+#input-depth {
+    max-width: 40%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-left: 27.5rem
+}
+
+#input-price {
+    max-width: 40%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-left:27.5rem
+}
+
+#input-stock {
+    max-width: 40%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-left: 27.5rem
+}
+
+#input-material {
+    max-width: 40%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-left: 27.5rem
+}
+
+#input-color {
+    max-width: 40%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-left: 27.5rem
+}
+
+#input-description {
+    max-width: 40%;
+    display: flex;
+    justify-content: center;
+    margin-left: 27.5rem
+}
+
+#input-photo {
+    max-width: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 27.5rem
+}
+
+.addit {
+    margin-left: 27.5rem;
 }

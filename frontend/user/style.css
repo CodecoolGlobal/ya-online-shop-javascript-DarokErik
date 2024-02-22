@@ -198,15 +198,6 @@ footer {
     text-align: center;
 }
 
-#cart-content {
-    display: flex;
-    align-items: center; 
-    justify-content: space-between;
-    padding: 0.2rem; 
-    width: 25rem; 
-    margin-top: 0.7rem;
-  }
-
 #home-container {
     position: absolute;
     top: 0;
@@ -221,17 +212,28 @@ footer {
     margin: 10px;
 }
 
+#cart-content {
+    display: flex;
+    align-items: center; 
+    justify-content: space-between;
+    width: 25rem; 
+    margin-top: 1rem;
+    margin-bottom: -2.5rem;
+    text-align: center;
+  }
+
 .cartMenu {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    width: fit-content;
-    height: fit-content;
-    margin-left: -42.5rem;
-    background-color: white;
-    
-    border: 2px solid black;
-
+    width: 40rem;
+    min-height: 40vh;
+    margin-left: -62.9rem;
+    margin-top: 5rem;
+    background-color: #dbdbdb;
+    color: #333;
+    border:rgba(0, 0, 0, 0.5);
+    border-radius: 2rem;
 }
 
 .popup {
@@ -243,7 +245,7 @@ footer {
     border: 1px solid #ccc;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     border-radius: 2rem;
-    background-image: linear-gradient(135deg, rgb(155, 124, 88), rgb(119, 95, 64));
+    background-image: linear-gradient(135deg, rgb(228, 224, 33), rgb(172, 155, 5));
     height: 2.5rem;
     display: none;
     margin-left: 40rem;
@@ -279,9 +281,10 @@ footer {
     padding: 0.8rem 1.6rem;
     cursor: pointer;
     transition: background-color 0.3s ease;
-    margin-top: 1.7rem;
+    margin-top: 1rem;
     margin-right: 2.5rem;
     border-radius: 0.5rem;
+    margin-bottom: 1.75rem;
 }
 
 #buy-button:hover {
@@ -294,4 +297,6 @@ footer {
     justify-content: space-between;
     padding: 10px; 
     width: 25rem;
+    margin-top: 4rem;
+    margin-left: -1.25rem;
 }
